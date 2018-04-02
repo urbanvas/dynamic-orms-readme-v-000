@@ -29,7 +29,7 @@ class Song
 
 
   def initialize(options={})
-    binding.pry
+    # binding.pry
     options.each do |property, value|
       self.send("#{property}=", value)
       binding.pry

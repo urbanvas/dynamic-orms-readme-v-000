@@ -32,6 +32,7 @@ class Song
     binding.pry
     options.each do |property, value|
       self.send("#{property}=", value)
+      binding.pry
     end
   end
 
